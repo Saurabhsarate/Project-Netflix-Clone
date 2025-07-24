@@ -68,7 +68,7 @@ This project replicates the core UI/UX and functionality of Netflix, including b
 
 ### Installation & Setup
 
-```bash
+'''bash 
 # 1. Clone the repo
 git clone https://github.com/abhipraydhoble/Project-Netflix-Clone.git
 cd Project-Netflix-Clone
@@ -88,9 +88,11 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 EOT
 
 # 4. Start development server
-npm start
+npm start 
+
 
 🗂️ Project Structure
+'''bash
 # 5. Open http://localhost:3000 in your browser
 Project-Netflix-Clone/
 ├── public/                 # Static assets & HTML
