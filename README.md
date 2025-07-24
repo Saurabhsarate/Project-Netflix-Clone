@@ -72,18 +72,16 @@ This project replicates the core UI/UX and functionality of Netflix, including b
    ```bash
    git clone https://github.com/abhipraydhoble/Project-Netflix-Clone.git
    cd Project-Netflix-Clone
-Install dependencies
-
-bash
-Copy
-Edit
+   
+## Install dependencies
+'''bash
 npm install
-Running Locally
-Create a .env.local file in the project root, then add:
 
-env
-Copy
-Edit
+
+## Running Locally
+## 1. Create a .env.local file in the project root, then add:
+
+
 REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
@@ -91,18 +89,15 @@ REACT_APP_FIREBASE_PROJECT_ID=your_project_id
 REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
-Start the dev server
 
-bash
-Copy
-Edit
+## 2.Start the dev server
+
+
 npm start
 Open http://localhost:3000 in your browser.
 
-🗂️ Project Structure
-csharp
-Copy
-Edit
+### 🗂️ Project Structure
+
 Project-Netflix-Clone/
 ├── public/                 # Static assets & HTML
 ├── src/
@@ -118,47 +113,42 @@ Project-Netflix-Clone/
 ├── .env.local              # Environment variables (gitignored)
 ├── package.json            # NPM dependencies & scripts
 └── tailwind.config.js      # Tailwind CSS config
-📋 Available Scripts
+
+### 📋 Available Scripts
 In the project directory, you can run:
 
-Command	Description
-npm start	Runs the app in development mode
-npm run build	Builds the app for production
-npm test	Launches the test runner (Jest)
-npm run lint	Lints code with ESLint
+Command	                  Description
+npm start	                 Runs the app in development mode
+npm run                    build	Builds the app for production
+npm test	                 Launches the test runner (Jest)
+npm run                    lint	Lints code with ESLint
 
-🌐 Environment Variables
-Variable	Purpose
-REACT_APP_TMDB_API_KEY	TMDB REST API key
-REACT_APP_FIREBASE_API_KEY	Firebase project API key
-REACT_APP_FIREBASE_AUTH_DOMAIN	Firebase Auth domain
-REACT_APP_FIREBASE_PROJECT_ID	Firebase project identifier
-REACT_APP_FIREBASE_STORAGE_BUCKET	Firebase Storage bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID	Firebase messaging sender ID
-REACT_APP_FIREBASE_APP_ID	Firebase app ID
+### 🌐 Environment Variables
+Variable	                                  Purpose
+REACT_APP_TMDB_API_KEY	                 TMDB REST API key
+REACT_APP_FIREBASE_API_KEY	             Firebase project API key
+REACT_APP_FIREBASE_AUTH_DOMAIN	         Firebase Auth domain
+REACT_APP_FIREBASE_PROJECT_ID	           Firebase project identifier
+REACT_APP_FIREBASE_STORAGE_BUCKET	       Firebase Storage bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID	 Firebase messaging sender ID
+REACT_APP_FIREBASE_APP_ID	               Firebase app ID
 
-🤝 Contributing
-Fork the repo
+### 🤝 Contributing
+1.Fork the repo
 
-Create your feature branch (git checkout -b feature/AwesomeFeature)
+2.Create your feature branch (git checkout -b feature/AwesomeFeature)
 
-Commit your changes (git commit -m 'Add some feature')
+3.Commit your changes (git commit -m 'Add some feature')
 
-Push to the branch (git push origin feature/AwesomeFeature)
+4.Push to the branch (git push origin feature/AwesomeFeature)
 
-Open a Pull Request
+5. Open a Pull Request
 
 Please adhere to the Contributor Covenant code of conduct.
 
-📄 License
+### 📄 License
 Distributed under the MIT License. See LICENSE for more information.
 
-📬 Contact
-Saurabh Sarate
-Project Link: https://github.com/Saurabhsarate/Project-Netflix-Clone
-
-css
-Copy
-Edit
-
-Feel free to adjust demo links, screenshots, or environment details as needed!
+### 📬 Contact
+Saurabh Sarate -saurabhsarate257@gmail.com
+Project Link: (https://github.com/Saurabhsarate/Project-Netflix-Clone)
