@@ -92,7 +92,7 @@ npm start
 
 # 5. Open http://localhost:3000 in your browser
 🗂️ Project Structure
-''bash 
+
 Project-Netflix-Clone/
 ├── public/                 # Static assets & HTML
 ├── screenshots/            # Example screenshots
