@@ -68,6 +68,7 @@ This project replicates the core UI/UX and functionality of Netflix, including b
 
 ### Installation & Setup
 
+```bash
 # 1. Clone the repo
 git clone https://github.com/abhipraydhoble/Project-Netflix-Clone.git
 cd Project-Netflix-Clone
@@ -89,11 +90,9 @@ EOT
 # 4. Start development server
 npm start
 
-# 5. Open http://localhost:3000 in your browse
-
-
+# 5. Open http://localhost:3000 in your browser
 🗂️ Project Structure
-
+''bash 
 Project-Netflix-Clone/
 ├── public/                 # Static assets & HTML
 ├── screenshots/            # Example screenshots
@@ -111,6 +110,7 @@ Project-Netflix-Clone/
 ├── package.json            # NPM dependencies & scripts
 └── tailwind.config.js      # Tailwind CSS config
 
+'''bash
 ## 📋 Available Scripts
 
 | Command             | Description                             |
