@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: netflix-app
+  name: node-exporter
+  namespace: prometheus
   labels:
     app: netflix-app
 spec:
